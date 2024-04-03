@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v2 # Используем действие для клонирования pепозитория
 
     - name: Setup .NET Core # Car "Setup .NET Core" - установка .NET Core 
-      uses: actions/setup-dotnet@vi # Используем действие для установки …NET Core: 
+      uses: actions/setup-dotnet@v1 # Используем действие для установки …NET Core: 
       with:
         dotnet-version: '6.0.x' # Устанавливаем версию .NET Core
   
