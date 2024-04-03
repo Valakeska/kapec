@@ -26,9 +26,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.MapMetrics();
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapMetrics();
-});
+
 
 app.Run();
